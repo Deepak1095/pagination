@@ -1,0 +1,7 @@
+let totalBtn=10
+const [currentPage,setCurrentPage] = useState(1)
+let btnArr = new Array(totalBtn).fill(0)
+{btn.map((el,index)=>{
+ return <button onClick={()=>setCurrentPage(currentPage+1)}>{index+1}</button>
+})
+}
